@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Silkscreen&display=swap");
 
 body {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Silkscreen", cursive;
 
   min-width: 100vw;
   min-height: 100vh;
@@ -9,9 +10,19 @@ body {
   display: flex;
   flex-flow: column nowrap;
   place-items: center;
-  place-content: center;  
+  place-content: center;
 
   gap: "40px";
 
   text-align: center;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+}
+
+a {
+  padding: 24px 40px;
+  border: 1px solid black;
+  border-radius: 100%;
 }
