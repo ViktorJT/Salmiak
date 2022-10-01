@@ -12,17 +12,26 @@ body {
   place-items: center;
   place-content: center;
 
-  gap: "40px";
-
   text-align: center;
 }
 
 h1 {
+  display: block;
   font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+p {
+  display: block;
+  margin-bottom: 80px;
 }
 
 a {
+  display: block;
   padding: 24px 40px;
   border: 1px solid black;
   border-radius: 100%;
+  text-decoration: none;
 }
