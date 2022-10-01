@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
+  font-family: 'Bebas Neue', cursive;
+
   min-width: 100vw;
   min-height: 100vh;
 
@@ -8,4 +12,6 @@ body {
   place-content: center;  
 
   gap: "40px";
+
+  text-align: center;
 }
